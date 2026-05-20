@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Landing page responsive pour VokyB, nouilles sèches traditionnelles fabriquées à Madagascar."
+    />
+    <title>VokyB - Nouilles sèches traditionnelles</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+
+    <header class="site-header" aria-label="Navigation principale">
+      <nav class="nav-shell">
+        <a class="brand-mark" href="#top" aria-label="Accueil VokyB">
+          <img src="assets/logo-vokyb.png" alt="VokyB" />
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Menu</span>
+        </button>
+        <div class="site-menu" id="site-menu">
+          <a href="#saveurs">Saveurs</a>
+          <a href="#recettes">Recettes</a>
+          <a href="#qualite">Qualité</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero-section" id="top" aria-labelledby="hero-title">
+        <div class="noodle-ribbons" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Fièrement fabriqué à Madagascar</p>
+            <h1 id="hero-title">VokyB</h1>
+            <p class="hero-lede">
+              Des nouilles instantanées généreuses, prêtes en 4 minutes, avec le goût
+              chaud et familial qui remplit vraiment l'assiette.
+            </p>
+            <div class="hero-actions" aria-label="Actions principales">
+              <a class="button button-primary" href="#saveurs">
+                Voir les saveurs
+                <span aria-hidden="true">→</span>
+              </a>
+              <a class="button button-secondary" href="#recettes">Composer un bol</a>
+            </div>
+            <dl class="hero-facts" aria-label="Points forts VokyB">
+              <div>
+                <dt>4 min</dt>
+                <dd>Cuisson rapide</dd>
+              </div>
+              <div>
+                <dt>200g</dt>
+                <dd>Formats saveurs</dd>
+              </div>
+              <div>
+                <dt>500g</dt>
+                <dd>Format famille</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero-stage reveal" style="--delay: 120ms">
+            <div class="stage-foodscape" aria-hidden="true">
+              <img
+                class="stage-ingredients"
+                src="assets/generated/ingredient-flourish.png"
+                alt=""
+                width="1537"
+                height="1023"
+              />
+              <img
+                class="stage-bowl"
+                src="assets/generated/noodle-bowl.png"
+                alt=""
+                width="1537"
+                height="1023"
+              />
+            </div>
+            <div class="hero-photo" aria-hidden="true">
+              <img
+                src="assets/photos/vokyb-lifestyle-noodles.png"
+                alt=""
+                width="1536"
+                height="1024"
+              />
+            </div>
+            <div class="product-orbit">
+              <img
+                class="hero-pack"
+                src="assets/products/famille-vokyb.png"
+                alt="Assortiment de produits VokyB"
+                width="1000"
+                height="1000"
+              />
+              <div class="steam" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-ticker" aria-label="Promesses de marque">
+          <div class="ticker-track">
+            <span>Mahavoky sady matsiro</span>
+            <span>Sans huile végétale</span>
+            <span>Texture ferme</span>
+            <span>Vita Malagasy</span>
+            <span>Mahavoky sady matsiro</span>
+            <span>Sans huile végétale</span>
+            <span>Texture ferme</span>
+            <span>Vita Malagasy</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="flavor-section section-pad" id="saveurs" aria-labelledby="flavor-title">
+        <div class="section-heading section-heading-with-art reveal">
+          <figure class="section-heading-art section-heading-art-family">
+            <img
+              src="assets/editorial/famille-vokyb-poster.png"
+              alt="Affiche VokyB avec la mascotte, les paquets de nouilles et un bol garni"
+              width="1122"
+              height="1402"
+            />
+          </figure>
+          <h2 id="flavor-title">Un goût pour chaque envie</h2>
+          <p>
+            Une gamme visuelle et gourmande qui passe du bol quotidien au plat relevé,
+            avec des couleurs franches et des packshots qui claquent.
+          </p>
+        </div>
+
+        <div class="flavor-proof-row reveal" style="--delay: 80ms" aria-label="Avantages VokyB">
+          <div>
+            <strong>4 minutes</strong>
+            <span>Un repas chaud sans attente.</span>
+          </div>
+          <div>
+            <strong>5 formats</strong>
+            <span>Du snack individuel au grand paquet familial.</span>
+          </div>
+          <div>
+            <strong>Bol libre</strong>
+            <span>Légumes, oeuf, viande ou piment selon l'envie.</span>
+          </div>
+        </div>
+
+        <div class="flavor-showcase">
+          <article class="flavor-feature reveal" aria-live="polite">
+            <div class="flavor-plate">
+              <img
+                id="featured-pack"
+                src="assets/products/boeuf.png"
+                alt="Paquet VokyB saveur boeuf"
+                width="500"
+                height="500"
+              />
+            </div>
+            <div class="flavor-copy">
+              <p class="flavor-kicker" id="featured-kicker">Saveur boeuf</p>
+              <h3 id="featured-title">Le goût authentique du boeuf</h3>
+              <p id="featured-text">
+                Une base savoureuse, ronde et réconfortante pour les bols du quotidien.
+              </p>
+              <a class="text-link" href="#contact">Demander la distribution</a>
+            </div>
+          </article>
+
+          <div class="flavor-list reveal" style="--delay: 100ms" role="list">
+            <button
+              class="flavor-card is-active"
+              type="button"
+              data-flavor="boeuf"
+              style="--accent: #8bddeb"
+              role="listitem"
+            >
+              <img src="assets/products/boeuf.png" alt="" width="500" height="500" />
+              <span>Boeuf</span>
+            </button>
+            <button
+              class="flavor-card"
+              type="button"
+              data-flavor="piquant"
+              style="--accent: #ef3d2e"
+              role="listitem"
+            >
+              <img src="assets/products/piquant.png" alt="" width="500" height="500" />
+              <span>Poulet piquant</span>
+            </button>
+            <button
+              class="flavor-card"
+              type="button"
+              data-flavor="spicy"
+              style="--accent: #17120f"
+              role="listitem"
+            >
+              <img src="assets/products/spicy.png" alt="" width="500" height="500" />
+              <span>Extra spicy</span>
+            </button>
+            <button
+              class="flavor-card"
+              type="button"
+              data-flavor="tomyum"
+              style="--accent: #f6a713"
+              role="listitem"
+            >
+              <img src="assets/products/tom-yum.png" alt="" width="500" height="500" />
+              <span>Tom Yum</span>
+            </button>
+            <button
+              class="flavor-card"
+              type="button"
+              data-flavor="nature"
+              style="--accent: #f5c229"
+              role="listitem"
+            >
+              <img src="assets/products/nature.png" alt="" width="1000" height="1000" />
+              <span>Nature 500g</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="quality-section section-pad" id="qualite" aria-labelledby="quality-title">
+        <img
+          class="quality-bowl-decor"
+          src="assets/generated/noodle-bowl.png"
+          alt=""
+          width="1537"
+          height="1023"
+          aria-hidden="true"
+        />
+        <div class="quality-photo reveal">
+          <img
+            src="assets/photos/vokyb-lifestyle-noodles.png"
+            alt="Une personne souriante déguste un bol de nouilles avec des légumes frais"
+            width="1536"
+            height="1024"
+          />
+        </div>
+        <div class="quality-copy reveal" style="--delay: 100ms">
+          <p class="eyebrow">Du paquet au bol</p>
+          <h2 id="quality-title">Rapide, chaud, coloré, vraiment rassasiant</h2>
+          <p>
+            VokyB met le produit au centre : des nouilles souples, un assaisonnement
+            expressif et assez de place dans le bol pour ajouter herbes, légumes,
+            oeuf, viande ou piment selon l'envie.
+          </p>
+          <div class="quality-grid" aria-label="Qualités du produit">
+            <div>
+              <strong>4 minutes</strong>
+              <span>Une préparation simple pour les pauses rapides.</span>
+            </div>
+            <div>
+              <strong>Texture ferme</strong>
+              <span>Une tenue agréable pour sauter, mijoter ou servir en soupe.</span>
+            </div>
+            <div>
+              <strong>Vita Malagasy</strong>
+              <span>Une marque locale, chaleureuse et proche des familles.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="recipe-section section-pad" id="recettes" aria-labelledby="recipe-title">
+        <div class="section-heading section-heading-with-art reveal">
+          <figure class="section-heading-art section-heading-art-bowl">
+            <img
+              src="assets/editorial/inspiration-bol-mascotte.png"
+              alt="Mascotte VokyB à côté d'un bol de nouilles avec légumes frais"
+              width="1254"
+              height="1254"
+            />
+          </figure>
+          <h2 id="recipe-title">Ajoute du vrai, sers du beau</h2>
+          <p>
+            Trois directions simples pour transformer un paquet VokyB en assiette
+            chaude, vive et partageable.
+          </p>
+        </div>
+
+        <div class="recipe-grid">
+          <article class="recipe-card reveal">
+            <span class="recipe-number">01</span>
+            <h3>Bol marché frais</h3>
+            <p>Tomates, pak choi, oignons verts, coriandre et citron vert.</p>
+          </article>
+          <article class="recipe-card reveal" style="--delay: 80ms">
+            <span class="recipe-number">02</span>
+            <h3>Bol poulet doré</h3>
+            <p>Poulet grillé, oeuf mollet, herbes fraîches et bouillon bien chaud.</p>
+          </article>
+          <article class="recipe-card reveal" style="--delay: 160ms">
+            <span class="recipe-number">03</span>
+            <h3>Bol feu doux</h3>
+            <p>Piment rouge, gingembre, légumes croquants et saveur piquante.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-section" id="contact" aria-labelledby="cta-title">
+        <div class="cta-band reveal">
+          <img
+            src="assets/products/famille-vokyb.png"
+            alt="Gamme VokyB"
+            width="1000"
+            height="1000"
+          />
+          <div>
+            <p class="eyebrow">Pour boutiques, snacks et familles</p>
+            <h2 id="cta-title">Mets VokyB sur la table</h2>
+            <p>
+              Une landing page prête pour présenter la gamme, capter des demandes
+              commerciales et donner faim dès la première seconde.
+            </p>
+          </div>
+          <a class="button button-primary" href="mailto:contact@vokyb.mg">
+            Contacter VokyB
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year">2026</span> VokyB. Nouilles sèches traditionnelles.</p>
+      <a href="#top">Retour en haut</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
