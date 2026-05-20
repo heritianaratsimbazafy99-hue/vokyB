@@ -629,7 +629,7 @@ h1 {
   z-index: 0;
   width: min(44vw, 640px);
   aspect-ratio: 1537 / 1023;
-  background: url("assets/generated/ingredient-flourish.png") center / contain no-repeat;
+  background: url("assets/optimized/generated/ingredient-flourish.webp") center / contain no-repeat;
   opacity: 0.16;
   transform: rotate(-9deg);
   pointer-events: none;

@@ -8,6 +8,18 @@
       content="Landing page responsive pour VokyB, nouilles sèches traditionnelles fabriquées à Madagascar."
     />
     <title>VokyB - Nouilles sèches traditionnelles</title>
+    <link
+      rel="preload"
+      as="image"
+      href="assets/optimized/photos/vokyb-lifestyle-noodles.webp"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/optimized/products/famille-vokyb.webp"
+      fetchpriority="high"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -16,7 +28,13 @@
     <header class="site-header" aria-label="Navigation principale">
       <nav class="nav-shell">
         <a class="brand-mark" href="#top" aria-label="Accueil VokyB">
-          <img src="assets/logo-vokyb.png" alt="VokyB" />
+          <img
+            src="assets/optimized/logo-vokyb.webp"
+            alt="VokyB"
+            width="260"
+            height="260"
+            decoding="async"
+          />
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
           <span></span>
@@ -42,7 +60,7 @@
         </div>
 
         <div class="hero-grid">
-          <div class="hero-copy reveal">
+          <div class="hero-copy reveal is-visible">
             <p class="eyebrow">Fièrement fabriqué à Madagascar</p>
             <h1 id="hero-title">VokyB</h1>
             <p class="hero-lede">
@@ -72,38 +90,44 @@
             </dl>
           </div>
 
-          <div class="hero-stage reveal" style="--delay: 120ms">
+          <div class="hero-stage reveal is-visible" style="--delay: 120ms">
             <div class="stage-foodscape" aria-hidden="true">
               <img
                 class="stage-ingredients"
-                src="assets/generated/ingredient-flourish.png"
+                src="assets/optimized/generated/ingredient-flourish.webp"
                 alt=""
-                width="1537"
-                height="1023"
+                width="900"
+                height="599"
+                decoding="async"
               />
               <img
                 class="stage-bowl"
-                src="assets/generated/noodle-bowl.png"
+                src="assets/optimized/generated/noodle-bowl.webp"
                 alt=""
-                width="1537"
-                height="1023"
+                width="900"
+                height="599"
+                decoding="async"
               />
             </div>
             <div class="hero-photo" aria-hidden="true">
               <img
-                src="assets/photos/vokyb-lifestyle-noodles.png"
+                src="assets/optimized/photos/vokyb-lifestyle-noodles.webp"
                 alt=""
-                width="1536"
-                height="1024"
+                width="1400"
+                height="876"
+                decoding="async"
+                fetchpriority="high"
               />
             </div>
             <div class="product-orbit">
               <img
                 class="hero-pack"
-                src="assets/products/famille-vokyb.png"
+                src="assets/optimized/products/famille-vokyb.webp"
                 alt="Assortiment de produits VokyB"
-                width="1000"
-                height="1000"
+                width="900"
+                height="900"
+                decoding="async"
+                fetchpriority="high"
               />
               <div class="steam" aria-hidden="true">
                 <span></span>
@@ -132,10 +156,12 @@
         <div class="section-heading section-heading-with-art reveal">
           <figure class="section-heading-art section-heading-art-family">
             <img
-              src="assets/editorial/famille-vokyb-poster.png"
+              src="assets/optimized/editorial/famille-vokyb-poster.webp"
               alt="Affiche VokyB avec la mascotte, les paquets de nouilles et un bol garni"
-              width="1122"
-              height="1402"
+              width="784"
+              height="980"
+              loading="lazy"
+              decoding="async"
             />
           </figure>
           <h2 id="flavor-title">Un goût pour chaque envie</h2>
@@ -165,10 +191,12 @@
             <div class="flavor-plate">
               <img
                 id="featured-pack"
-                src="assets/products/boeuf.png"
+                src="assets/optimized/products/boeuf.webp"
                 alt="Paquet VokyB saveur boeuf"
                 width="500"
                 height="500"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div class="flavor-copy">
@@ -189,7 +217,14 @@
               style="--accent: #8bddeb"
               role="listitem"
             >
-              <img src="assets/products/boeuf.png" alt="" width="500" height="500" />
+              <img
+                src="assets/optimized/products/boeuf.webp"
+                alt=""
+                width="500"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              />
               <span>Boeuf</span>
             </button>
             <button
@@ -199,7 +234,14 @@
               style="--accent: #ef3d2e"
               role="listitem"
             >
-              <img src="assets/products/piquant.png" alt="" width="500" height="500" />
+              <img
+                src="assets/optimized/products/piquant.webp"
+                alt=""
+                width="500"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              />
               <span>Poulet piquant</span>
             </button>
             <button
@@ -209,7 +251,14 @@
               style="--accent: #17120f"
               role="listitem"
             >
-              <img src="assets/products/spicy.png" alt="" width="500" height="500" />
+              <img
+                src="assets/optimized/products/spicy.webp"
+                alt=""
+                width="500"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              />
               <span>Extra spicy</span>
             </button>
             <button
@@ -219,7 +268,14 @@
               style="--accent: #f6a713"
               role="listitem"
             >
-              <img src="assets/products/tom-yum.png" alt="" width="500" height="500" />
+              <img
+                src="assets/optimized/products/tom-yum.webp"
+                alt=""
+                width="500"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              />
               <span>Tom Yum</span>
             </button>
             <button
@@ -229,7 +285,14 @@
               style="--accent: #f5c229"
               role="listitem"
             >
-              <img src="assets/products/nature.png" alt="" width="1000" height="1000" />
+              <img
+                src="assets/optimized/products/nature.webp"
+                alt=""
+                width="760"
+                height="760"
+                loading="lazy"
+                decoding="async"
+              />
               <span>Nature 500g</span>
             </button>
           </div>
@@ -239,18 +302,22 @@
       <section class="quality-section section-pad" id="qualite" aria-labelledby="quality-title">
         <img
           class="quality-bowl-decor"
-          src="assets/generated/noodle-bowl.png"
+          src="assets/optimized/generated/noodle-bowl.webp"
           alt=""
-          width="1537"
-          height="1023"
+          width="900"
+          height="599"
           aria-hidden="true"
+          loading="lazy"
+          decoding="async"
         />
         <div class="quality-photo reveal">
           <img
-            src="assets/photos/vokyb-lifestyle-noodles.png"
+            src="assets/optimized/photos/vokyb-lifestyle-noodles.webp"
             alt="Une personne souriante déguste un bol de nouilles avec des légumes frais"
-            width="1536"
-            height="1024"
+            width="1400"
+            height="876"
+            loading="lazy"
+            decoding="async"
           />
         </div>
         <div class="quality-copy reveal" style="--delay: 100ms">
@@ -282,10 +349,12 @@
         <div class="section-heading section-heading-with-art reveal">
           <figure class="section-heading-art section-heading-art-bowl">
             <img
-              src="assets/editorial/inspiration-bol-mascotte.png"
+              src="assets/optimized/editorial/inspiration-bol-mascotte.webp"
               alt="Mascotte VokyB à côté d'un bol de nouilles avec légumes frais"
-              width="1254"
-              height="1254"
+              width="900"
+              height="900"
+              loading="lazy"
+              decoding="async"
             />
           </figure>
           <h2 id="recipe-title">Ajoute du vrai, sers du beau</h2>
@@ -317,10 +386,12 @@
       <section class="cta-section" id="contact" aria-labelledby="cta-title">
         <div class="cta-band reveal">
           <img
-            src="assets/products/famille-vokyb.png"
+            src="assets/optimized/products/famille-vokyb.webp"
             alt="Gamme VokyB"
-            width="1000"
-            height="1000"
+            width="900"
+            height="900"
+            loading="lazy"
+            decoding="async"
           />
           <div>
             <p class="eyebrow">Pour boutiques, snacks et familles</p>
